@@ -3,7 +3,7 @@ salario = float(input("Insira seu salário: "))
 
 if salario >= 2259.21 and salario <= 2826.65:
     imposto = salario * 0.075 + 169.44
-    print("Você pagará 7,5 por cento da alíquita de imposto, totalizando R$", imposto,"que serão abatidos do seu salário.")
+    print("Você pagará 7,5 por cento da alíquita de imposto somado ao valor base da sua faixa, totalizando R$", imposto,"que serão abatidos do seu salário.")
 elif salario >= 2826.66 and salario <= 3751.05:
     imposto = (salario * 0.15) + 381.44
     print("Você pagará 15 por cento da alíquita de imposto somado ao valor base da sua faixa, totalizando R$", imposto,"que serão abatidos do seu salário.")
